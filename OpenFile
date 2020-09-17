@@ -1,0 +1,21 @@
+def openfile():
+  filedata = open('C:\Data Science\Course2 Open Source Tools for DataScience\student_grades.csv')
+  for line in filedata:
+    print(line)
+
+def readfile():
+  filedata = open('C:\Data Science\Course2 Open Source Tools for DataScience\student_grades.csv')
+  x=filedata.read()
+  print(len(x))
+
+def sreverse():
+  input = 'i am boy'
+  for i in input:
+    if(i.isspace()) == 'True':
+      print(i)
+
+
+if __name__ == "__main__":
+  #openfile()
+#  readfile()
+  sreverse()
